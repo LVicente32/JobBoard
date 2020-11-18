@@ -1,0 +1,61 @@
+#bodymain
+{
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 4fr;
+    background-color: rgb(32, 32, 32);
+    gap: 1em;
+}
+#admin
+{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+#titresite
+{
+    background: -webkit-linear-gradient(rgb(129, 129, 129), rgb(26, 255, 18));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+}
+#textmain1
+{
+    border: 5px solid  rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    margin: 20px 30% 20px 30%;
+    padding: 40px;
+    background: linear-gradient(white, rgb(40, 223, 255));
+    
+}
+#textmain2
+{
+    border: 5px solid  rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    margin: 20px 30% 20px 30%;
+    padding: 40px;
+    background: linear-gradient(white, rgb(255, 125, 38));
+}
+#lienmain
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#textmain1:hover, #textmain2:hover
+{
+    border-color: rgb(149, 149, 149);
+}
+#lienadmin
+{
+    text-decoration: none;
+    color: white;
+}
+#lienadmin:hover
+{
+    color: red;
+}

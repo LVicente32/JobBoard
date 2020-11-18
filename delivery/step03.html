@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>utilisateur</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="step03.css">
+    </head>
+    <body id="bodyutilisateur">
+        <!-- <div>Utilisateur</div> -->
+        <!-- <div>recherche annonce
+            <div>nom poste</div>
+            <div>localisation</div>
+            <div>CDD ou CDI</div> -->
+        <!-- </div> -->
+        <div id="rechercheU">
+            <div>
+                <label for="poste">Poste recherché:</label>
+                <input type="text" id="poste">
+            </div>
+            <div>
+                <label for="ville">Ville:</label>
+                <select name="ville" id="ville">
+                    <option value="Mtp">Montpellier</option>
+                    <option value="Nms">Nîmes</option>
+                    <option value="other">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="typeContrat">Type de contrat:</label>
+                <select name="contrat" id="typeContrat">
+                    <option value="CDD">CDD</option>
+                    <option value="CDI">CDI</option>
+                </select>
+            </div>
+            <button>rechercher</button>
+        </div>
+       
+        <div class="menuAnnonce">Les annonces:
+            <div class="annonce">
+                <h2>Titre annonce1</h2>
+                <p>petite description</p>
+                <button class="learnMore" id="GD1">learn more</button>
+                <p class="grosseDescription" id="grosseDescription1">description du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqisesdescription du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqises</p>
+            </div>
+            <div class="annonce">
+                <h2>Titre annonce2</h2>
+                <p>petite description</p>
+                <button class="learnMore" id="GD2">learn more</button>
+                <p class="grosseDescription" id="grosseDescription2">description du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqisesdescription du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqises</p>
+            </div>
+            <div class="annonce">
+                <h2>Titre annonce3</h2>
+                <p>petite description</p>
+                <button class="learnMore" id="GD3">learn more</button>
+                <p class="grosseDescription" id="grosseDescription3">description du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqisesdescription du poste avec par exemple les taches a effectuer ou les horaires de travail ainsi que les qualifications reqises</p>
+            </div>
+        </div>
+        <!-- <div>choisir une annonce</div> -->
+        <!-- <button>postuler</button> -->
+        <!-- <div>mettre ces coordonées</div> -->
+        <!-- <form action="">
+            <label for="nom">votre nom</label>
+            <input type="text" id="nom">
+
+            <label for="prenom">Votre prenom</label>
+            <input type="text" id="prenom">
+
+            <label for="email">Votre email</label>
+            <input type="email" id="email">
+
+            <label for="tel">Votre numero de telephone</label>
+            <input type="num" id="tel" maxlength="10">
+        </form>
+        <button>postuler(avec un mailto)</button> -->
+
+
+    </body>
+    <script src="step03.js"></script>
+</html>
